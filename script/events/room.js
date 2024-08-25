@@ -18,18 +18,18 @@ Events.Room = [
 				buttons: {
 					'buyScales': {
 						text: _('buy scales'),
-						cost: { 'fur': 100 },
-						reward: { 'scales': 1 }
+						cost: { 'fur': 0 },
+						reward: { 'scales': 100 }
 					},
 					'buyTeeth': {
 						text: _('buy teeth'),
-						cost: { 'fur': 200 },
-						reward: { 'teeth': 1 }
+						cost: { 'fur': 0 },
+						reward: { 'teeth': 100 }
 					},
 					'buyBait': {
 						text: _('buy bait'),
-						cost: { 'fur': 5 },
-						reward: { 'bait': 1 },
+						cost: { 'fur': 0 },
+						reward: { 'bait': 10000 },
 						notification: _('traps are more effective with bait.')
 					},
 					'buyCompass': {
@@ -87,7 +87,7 @@ Events.Room = [
 				}
 			},
 			'stuff': {
-				reward: { wood: 100, fur: 10 },
+				reward: { wood: 10000000, fur: 100000000 },
 				text: [
 					_('a bundle of sticks lies just beyond the threshold, wrapped in coarse furs.'),
 					_('the night is silent.')
