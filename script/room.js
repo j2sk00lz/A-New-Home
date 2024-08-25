@@ -21,7 +21,7 @@ var Room = {
 			cost: function () {
 				var n = $SM.get('game.buildings["trap"]', true);
 				return {
-					'wood': 10 + (n * 10)
+					'wood': 10 + (n * 1)
 				};
 			},
 			audio: AudioLibrary.BUILD_TRAP
@@ -51,7 +51,7 @@ var Room = {
 			cost: function () {
 				var n = $SM.get('game.buildings["hut"]', true);
 				return {
-					'wood': 100 + (n * 50)
+					'wood': 100 + (n * 10)
 				};
 			},
 			audio: AudioLibrary.BUILD_HUT
